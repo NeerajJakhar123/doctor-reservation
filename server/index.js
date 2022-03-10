@@ -1,6 +1,11 @@
 // run the server
 const app = require('./app');
 
-app.listen(app.get('port'),
+const port = process.env.PORT || 4000
+app.listen(port, () => {
+    console.log(`App is running at ${port}`)
+  })
+
+/*app.listen(app.get('port'),
   // eslint-disable-next-line no-console
-  () => console.log(`server run on http://localhost:${app.get('port')}`));
+  () => console.log(`server run on http://localhost:${app.get('port')}`)); */
