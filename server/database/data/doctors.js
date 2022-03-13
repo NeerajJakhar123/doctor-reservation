@@ -37,7 +37,7 @@ module.exports = async () => {
     {
       fullName: 'Melen',
       email: 'Melen@gmail.com',
-      picture: 'https://atlantabodybalance.com/wp-content/uploads/2018/09/Car_Accident_Doctor.png',
+      picture: 'https://images.everydayhealth.com/images/skin-beauty/acne/5-signs-of-a-great-dermatologist-article.jpg?sfvrsn=3b980b9c_0',
       gender: 'female',
       specialization: 'Dermatology',
       birthDate: '1989/5/3',

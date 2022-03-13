@@ -45,13 +45,13 @@ const appointments = require("./routes/appointments")
 app.use('/doctors', doctors);
 app.use('/appointments', appointments);
 
-//app.use('/api/v1', router);
+app.use('/api/v1', router);
 
-app.use(express.static(join(__dirname, '..', 'client', 'build')));
+/*app.use(express.static(join(__dirname, '..', 'client', 'build')));
 
 app.get('*', (req, res) => {
   res.sendFile(join(__dirname, '..', 'client', 'build', 'index.html'));
-});
+}); */
 
 app.get('/', (req, res)=>{
   res.send("Hello World");
